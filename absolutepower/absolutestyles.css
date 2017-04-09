@@ -1,0 +1,88 @@
+/*Fonts from Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:500');
+body{
+    background-color: #fff;
+    position: relative;
+}
+
+/*Header and header image styles*/
+.business-header {
+    height: 400px;
+    background: url('images/header.jpeg') center center no-repeat scroll;
+    border-bottom: 10px solid #FFA500;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* navbar styles*/
+.navbar-inverse{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    transition: all .5s ease-out;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.navbar-inverse .navbar-nav li  a:hover{
+    border-bottom: 2px solid #FFA500;
+    
+}
+
+/* Nav inbody styles */
+.inbody{
+    background-color: black;
+    box-shadow: 3px 3px 3px lightgray;
+} 
+
+ .inbody .navbar-brand{
+    padding-top: 5px;
+}
+
+/* Header styles*/
+h1, h2, h3, h4, h5{
+    font-family: 'Maven Pro', sans-serif;  
+    padding-top: 50px;
+    text-shadow:  3px 3px 3px lightgray;
+}
+/* paragraph styles */
+p{
+    font-size: 13px;
+    line-height: 21px;
+}
+
+/*Slight box shadow added to package images*/
+.img-rounded{
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+.img-center{
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+/* Gallery and Schedule padding */
+#gallery{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#schedule{
+    padding-left: 70px;
+}
+
+/* footer styles*/
+.social{
+    color: black;
+    padding-bottom: 50px;
+}
+
+.social:hover{
+    color: #FFA500;
+}
+
